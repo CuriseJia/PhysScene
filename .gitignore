@@ -1,0 +1,87 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+# Virtual environments and local Python installs
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+# Jupyter and notebook checkpoints
+.ipynb_checkpoints/
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+# PhysScene generated outputs
+phys_scene_output/
+phys_scene_test_output/
+outputs/
+artifacts/
+renders/
+captures/
+screenshots/
+# Generated geometry, simulation, and asset-cache files
+*.ply
+*.npz
+*.npy
+*.fbx
+*.glb
+*.gltf
+*.usd
+*.usdz
+*.assetbundle
+*.bundle
+*.prefab
+*.meta
+# Large model checkpoints and local ML caches
+checkpoints/
+models/
+weights/
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.safetensors
+# TDW / Unity generated local data
+tdw_build/
+tdw_cache/
+AssetBundles/
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+MemoryCaptures/
+# Keep source examples and project docs trackable.
+!requirements-optional.txt
+!README_phys_scene.md
