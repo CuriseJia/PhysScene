@@ -1,0 +1,3 @@
+[submodule "threedworld"]
+	path = tdw
+	url = https://github.com/threedworld-mit/tdw.git
